@@ -1,0 +1,110 @@
+.hero-container {
+  background-color: #495e57;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25%;
+}
+
+.hero-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 64pt;
+  font-weight: 500;
+  color: #f4ce14;
+  margin-top: -25px;
+  margin-bottom: -35px;
+}
+
+.hero-subtitle {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 40pt;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.hero-info {
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.hero-button {
+  background-color: #f4ce14;
+  color: black;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 12pt;
+  border-radius: 16px;
+  width: 150px;
+  padding: 10px;
+  border: none;
+}
+
+.hero-img {
+  height: 325px;
+  width: 325px;
+  border-radius: 16px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+/* Responsive styles for +1080p screens*/
+
+@media only screen and (min-width: 1921px) {
+  .hero-container {
+    padding: 10px 30%;
+  }
+}
+
+/* Responsive styles for mobile screens */
+
+@media only screen and (max-width: 1450px) {
+  .hero-container {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .hero-description-container {
+    text-align: center; /* Center text and button */
+    margin-bottom: 20px; /* Add margin between description and button */
+    align-items: center;
+  }
+
+  .hero-img-container {
+    display: none;
+  }
+
+  .hero-title {
+    font-size: 64pt; /* Decrease font size for better mobile readability */
+    margin-top: -10px;
+  }
+
+  .hero-subtitle {
+    font-size: 40pt; /* Decrease font size for better mobile readability */
+  }
+
+  .hero-info {
+    font-size: 16pt; /* Decrease font size for better mobile readability */
+    margin-top: -5px;
+  }
+
+  .hero-button {
+    font-size: 12pt; /* Decrease font size for better mobile readability */
+    width: 175px;
+    margin-top: 5px;
+  }
+}

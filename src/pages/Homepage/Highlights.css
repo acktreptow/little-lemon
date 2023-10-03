@@ -1,0 +1,155 @@
+.highlights-container {
+  background-color: white;
+  height: 700px;
+  padding: 10px 25%;
+}
+
+.highlights-section-top {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highlights-header {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 40pt;
+  font-weight: 400;
+  color: black;
+}
+
+.highlights-button {
+  background-color: #f4ce14;
+  color: black;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 12pt;
+  border-radius: 16px;
+  width: 130px;
+  padding: 10px;
+  border: none;
+}
+
+.highlights-section-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specials-card {
+  width: 300px;
+  height: 445px;
+  background-color: #edefee;
+  border-radius: 16px;
+}
+
+.specials-image {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.specials-title-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin-top: 15px;
+}
+
+.specials-title {
+  font-size: 18pt;
+  font-weight: 700;
+  font-family: "Markazi Text", sans-serif;
+}
+
+.specials-price {
+  color: #ee9972;
+  font-weight: 500;
+  font-size: 16pt;
+  font-family: "Markazi Text", sans-serif;
+}
+
+.specials-description {
+  padding: 0 15px;
+  margin-top: 15px;
+  color: #495e57;
+  font-family: "Karla", sans-serif;
+  height: 125px;
+  line-height: 1.5;
+}
+
+.specials-delivery-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 15px;
+  margin-top: 15px;
+  gap: 10px;
+}
+
+.specials-delivery-request {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+
+.faMotorcycle {
+  color: #495e57;
+}
+
+@media only screen and (min-width: 1921px) {
+  .highlights-container {
+    padding: 10px 30%;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  .highlights-section-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .highlights-section-top {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .highlights-container {
+    padding: 0;
+  }
+
+  .highlights-section-top {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1850px) {
+  .highlights-section-bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .highlights-container {
+    height: 1150px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .highlights-container {
+    height: 1550px;
+  }
+
+  .highlights-section-bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

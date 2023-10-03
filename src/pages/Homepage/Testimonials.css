@@ -1,0 +1,120 @@
+.testimonials-container {
+  background-color: #495e57;
+  height: 525px;
+  padding: 10px 25%;
+}
+
+.testimonials-title {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Markazi Text", sans-serif;
+  font-size: 40pt;
+  font-weight: 400;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.testimonial-card {
+  width: 100%;
+  max-width: 250px;
+  min-width: 200px;
+  height: 100%;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.testimonial-rating {
+  color: #f4ce14;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.img-name-username-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.testimonial-img {
+  width: 45%;
+  border-radius: 100%;
+}
+
+.name-username-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-name {
+  font-family: "Markazi Text", sans-serif;
+  font-weight: 700;
+  font-size: 18pt;
+  margin-bottom: -5px;
+}
+
+.testimonial-user-name {
+  font-family: "Markazi Text", sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.testimonial-text {
+  color: #495e57;
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+  margin-top: 5px;
+  padding: 5px 15px;
+}
+
+@media only screen and (min-width: 1921px) {
+  .testimonials-container {
+    padding: 10px 30%;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  .testimonials {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .testimonials-container {
+    height: 850px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .testimonials {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .testimonials-container {
+    height: 1585px;
+  }
+
+  .testimonials-title {
+    font-size: 30pt;
+    line-height: 0.75;
+  }
+}

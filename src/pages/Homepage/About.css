@@ -1,0 +1,79 @@
+.about-container {
+  background-color: white;
+  height: 450px;
+  padding: 10px 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-title {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 64pt;
+  font-weight: 500;
+  color: #f4ce14;
+  margin-bottom: -35px;
+}
+
+.about-subtitle {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 40pt;
+  font-weight: 400;
+  color: #495e57;
+}
+
+.about-description {
+  width: 350px;
+  margin-top: 25px;
+  color: black;
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+}
+
+.about-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.adrian-img {
+  width: 300px;
+  border-radius: 16px;
+}
+
+.adrian-mario-img {
+  width: 300px;
+  border-radius: 16px;
+}
+
+@media only screen and (min-width: 1921px) {
+  .about-container {
+    padding: 10px 30%;
+  }
+}
+@media only screen and (max-width: 1375px) {
+  .about-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 750px;
+    padding: 0%;
+  }
+
+  .about-title {
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+
+  .about-description {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}
