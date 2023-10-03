@@ -11,14 +11,14 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<WrongPage />} />
-        <Route path="/menu" element={<WrongPage />} />
-        <Route path="/reservations" element={<BookingPage />} />
-        <Route path="/order-online" element={<WrongPage />} />
-        <Route path="/login" element={<WrongPage />} />
-        <Route path="/contact" element={<WrongPage />} />
-        <Route path="/confirmed" element={<ConfirmedBooking />} />
+        <Route path="/little-lemon" element={<Homepage />} />
+        <Route path="/little-lemon/about" element={<WrongPage />} />
+        <Route path="/little-lemon/menu" element={<WrongPage />} />
+        <Route path="/little-lemon/reservations" element={<BookingPage />} />
+        <Route path="/little-lemon/order-online" element={<WrongPage />} />
+        <Route path="/little-lemon/login" element={<WrongPage />} />
+        <Route path="/little-lemon/contact" element={<WrongPage />} />
+        <Route path="/little-lemon/confirmed" element={<ConfirmedBooking />} />
       </Routes>
       <Footer />
     </>
