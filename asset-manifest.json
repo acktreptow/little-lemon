@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/little-lemon/static/css/main.7fd7e7be.css",
+    "main.js": "/little-lemon/static/js/main.7cf109e9.js",
+    "static/media/mario-adrian.jpg": "/little-lemon/static/media/mario-adrian.7f44c6d6e341a27d14b3.jpg",
+    "static/media/bruschetta.svg": "/little-lemon/static/media/bruschetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/adrian.jpg": "/little-lemon/static/media/adrian.4b4c2d26b514db32e8fc.jpg",
+    "static/media/greek-salad.jpg": "/little-lemon/static/media/greek-salad.bed423a1fab5b210e347.jpg",
+    "static/media/restaurant-food.jpg": "/little-lemon/static/media/restaurant-food.e8abf5b772b6817189aa.jpg",
+    "static/media/star-wars.gif": "/little-lemon/static/media/star-wars.0ccd381348a594f52e58.gif",
+    "static/media/logo-white.png": "/little-lemon/static/media/logo-white.d09eb2af6c5a2225eedf.png",
+    "static/media/Logo.svg": "/little-lemon/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/User3.png": "/little-lemon/static/media/User3.ccdcea01362423e8e2bf.png",
+    "static/media/User1.png": "/little-lemon/static/media/User1.ba5a7f9f30d58ab385d9.png",
+    "static/media/User4.png": "/little-lemon/static/media/User4.fa4be855aa1466a1fcb3.png",
+    "static/media/User2.png": "/little-lemon/static/media/User2.333854849cb34643a28e.png",
+    "static/media/lemon-dessert.jpg": "/little-lemon/static/media/lemon-dessert.dcd1732d85064d49dab8.jpg",
+    "index.html": "/little-lemon/index.html",
+    "main.7fd7e7be.css.map": "/little-lemon/static/css/main.7fd7e7be.css.map",
+    "main.7cf109e9.js.map": "/little-lemon/static/js/main.7cf109e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fd7e7be.css",
+    "static/js/main.7cf109e9.js"
+  ]
+}
