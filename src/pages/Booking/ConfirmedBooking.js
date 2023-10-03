@@ -11,7 +11,7 @@ function ConfirmedBooking() {
   return (
     <div>
       <section className="confirmed-booking-container">
-        <h2 className='confirmed-booking-title'>Confirmed Booking</h2>
+        <h2 className="confirmed-booking-title">Confirmed Booking</h2>
         <p>
           <span>Date:</span> {formData.date}
         </p>
@@ -28,8 +28,8 @@ function ConfirmedBooking() {
           Your table has been reserved. Enjoy your meal!
         </p>
         <div className="button-container">
-          <button onClick={() => navigate("/")}>Homepage</button>
-          <button onClick={() => navigate("/reservations")}>
+          <button onClick={() => navigate("/little-lemon")}>Homepage</button>
+          <button onClick={() => navigate("/little-lemon/reservations")}>
             Back to reservations
           </button>
         </div>

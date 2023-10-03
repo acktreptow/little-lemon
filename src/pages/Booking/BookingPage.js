@@ -59,7 +59,7 @@ function BookingPage() {
     const updatedBookings = [...submittedBookings, formData];
     setSubmittedBookings(updatedBookings);
     localStorage.setItem("submittedBookings", JSON.stringify(updatedBookings));
-    navigate("/confirmed", { state: formData });
+    navigate("/little-lemon/confirmed", { state: formData });
   };
 
   const clearBookings = () => {
