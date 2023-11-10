@@ -55,7 +55,24 @@
   .footer-container {
     height: 350px;
     flex-direction: column-reverse;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
+  }
+
+  .footer-navigation-container h1,
+  .footer-contact-container h1,
+  .footer-socialMedia-container h1 {
+    font-size: 14pt;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 40px;
+  }
+
+  .footer-navigation-container a,
+  .footer-contact-container a,
+  .footer-socialMedia-container a {
+    line-height: 1.25;
   }
 
   .footer-logo {
