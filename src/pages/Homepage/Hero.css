@@ -108,3 +108,13 @@
     margin-top: 5px;
   }
 }
+
+@media only screen and (max-width: 390px) {
+  .hero-description-container {
+    gap: 5px;
+  }
+
+  .hero-title {
+    font-size: 48pt;
+  }
+}
