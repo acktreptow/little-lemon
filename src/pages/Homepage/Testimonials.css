@@ -98,9 +98,9 @@
     justify-content: center;
   }
 
-  .testimonials-container {
-    height: 850px;
-  }
+ .testimonial-card {
+  min-width: 300px;
+ }
 }
 
 @media only screen and (max-width: 1060px) {
@@ -110,7 +110,7 @@
   }
 
   .testimonials-container {
-    height: 1585px;
+    height: 1625px;
   }
 
   .testimonials-title {
