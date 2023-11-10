@@ -128,7 +128,7 @@
   }
 }
 
-@media only screen and (max-width: 1850px) {
+@media only screen and (max-width: 550px) {
   .highlights-section-bottom {
     flex-wrap: wrap;
     justify-content: center;
@@ -138,9 +138,13 @@
   .highlights-container {
     height: 1150px;
   }
+
+  .highlights-header {
+    font-size: 38pt;
+  }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 550px) {
   .highlights-container {
     height: 1550px;
   }
@@ -151,5 +155,24 @@
     gap: 20px;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+/* For tablets  */
+
+@media only screen and (min-width: 551px) and (max-width: 1050px) {
+  .highlights-container {
+    padding: 15px 5%;
+  }
+
+  .highlights-section-bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .highlights-container {
+    height: 1100px;
   }
 }
