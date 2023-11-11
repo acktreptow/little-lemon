@@ -131,6 +131,7 @@ li {
   }
 
   .form-input {
+    text-align: left;
     -webkit-appearance: none;
   }
 }

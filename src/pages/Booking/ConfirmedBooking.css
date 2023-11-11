@@ -57,10 +57,23 @@ button {
 
 @media only screen and (max-width: 1500px) {
   .confirmed-booking-container {
-    padding: 50px 20%;
-    height: 750px;
+    padding: 50px 10%;
+    height: auto;
   }
   .confirmed-booking-title {
+    font-size: 48pt;
     line-height: 0.75;
+  }
+
+  #reservation-confirmation {
+    line-height: 1.25;
+    font-size: 18pt;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .confirmed-booking-title {
+    font-size: 40pt;
   }
 }
