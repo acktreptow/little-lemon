@@ -130,3 +130,15 @@ li {
     margin-top: 10px;
   }
 }
+
+/* Galaxy Fold */
+
+@media only screen and (max-width: 280px) {
+  .booking-page-title {
+    font-size: 32pt;
+  }
+
+  #submitted-bookings-title {
+    font-size: 18pt;
+  }
+}
