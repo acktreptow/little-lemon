@@ -98,12 +98,12 @@
     justify-content: center;
   }
 
- .testimonial-card {
-  min-width: 300px;
- }
+  .testimonial-card {
+    min-width: 300px;
+  }
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 550px) {
   .testimonials {
     flex-wrap: wrap;
     justify-content: center;
@@ -114,7 +114,17 @@
   }
 
   .testimonials-title {
-    font-size: 30pt;
+    font-size: 27pt;
     line-height: 0.75;
+  }
+}
+
+/* For tablets */
+
+@media only screen and (min-width: 551px) and (max-width: 1050px) {
+  .testimonials-container {
+    padding: 15px 5%;
+    height: auto;
+    padding-bottom: 40px;
   }
 }
