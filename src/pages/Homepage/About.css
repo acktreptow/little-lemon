@@ -87,3 +87,25 @@
     padding: 15px 5%;
   }
 }
+
+/* For Galaxy Fold */
+
+@media only screen and (max-width: 280px) {
+  .about-container {
+    height: 700px;
+  }
+
+  .about-title {
+    font-size: 40pt;
+  }
+
+  .about-description {
+    font-size: 10pt;
+    padding: 0 15%;
+  }
+
+  .adrian-img,
+  .adrian-mario-img {
+    padding: 0 5%;
+  }
+}

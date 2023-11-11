@@ -131,3 +131,15 @@
     width: 275px;
   }
 }
+
+/* For Galaxy Fold */
+
+@media only screen and (max-width: 280px) {
+  .hero-title {
+    font-size: 42pt;
+  }
+
+  .hero-info {
+    font-size: 15pt;
+  }
+}

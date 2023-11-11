@@ -87,3 +87,35 @@
     padding: 15px 5%;
   }
 }
+
+/* For Galaxy Fold */
+
+@media only screen and (max-width: 280px) {
+  .footer-container {
+    height: 275px;
+    flex-direction: column-reverse;
+    padding-bottom: 25px;
+  }
+
+  .footer-navigation-container h1,
+  .footer-contact-container h1,
+  .footer-socialMedia-container h1 {
+    font-size: 12pt;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-navigation-container a,
+  .footer-contact-container a,
+  .footer-socialMedia-container a {
+    line-height: 1.25;
+    font-size: 10pt;
+  }
+
+  .footer-logo {
+    width: 50px;
+  }
+}

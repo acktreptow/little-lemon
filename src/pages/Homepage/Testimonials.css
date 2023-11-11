@@ -128,3 +128,21 @@
     padding-bottom: 40px;
   }
 }
+
+/* For Galaxy Fold */
+
+@media only screen and (max-width: 280px) {
+
+  .testimonials-container {
+    height: 1670px;
+  }
+
+  .testimonials-title {
+    font-size: 20pt;
+  }
+
+  .testimonial-card {
+    border-radius: 0;
+    padding: 5px 25%;
+  }
+}

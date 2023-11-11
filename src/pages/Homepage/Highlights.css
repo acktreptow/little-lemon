@@ -141,6 +141,7 @@
 
   .highlights-header {
     font-size: 38pt;
+    margin-bottom: 10px;
   }
 }
 
@@ -174,5 +175,17 @@
 
   .highlights-container {
     height: 1100px;
+  }
+}
+
+/* For Galaxy Fold */
+
+@media only screen and (max-width: 280px) {
+  .highlights-header {
+    font-size: 28pt;
+  }
+
+  .specials-card {
+    max-width: 250px;
   }
 }
