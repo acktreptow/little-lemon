@@ -46,16 +46,23 @@
   }
 }
 
-@media only screen and (max-width: 1250px) {
+/* For mobile and tablet screens */
+
+@media only screen and (max-width: 1050px) {
+  .page-container {
+    padding: 0 10%;
+    height: auto;
+  }
+
   .title {
-    font-size: 40pt;
+    font-size: 36pt;
   }
 
   .sub-title {
-    font-size: 32pt;
+    font-size: 28pt;
   }
 
-  .page-container {
-    height: 700px;
+  .star-wars-img {
+    margin-bottom: 50px;
   }
 }
