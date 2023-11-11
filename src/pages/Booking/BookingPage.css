@@ -72,6 +72,7 @@
   font-family: "Karla, sans-serif";
   font-size: 24pt;
   font-weight: 700;
+  margin-bottom: 5px;
 }
 
 #submitted-bookings-data {
@@ -80,7 +81,7 @@
 }
 
 ul > li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 li {
@@ -110,7 +111,7 @@ li {
   }
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1350px) {
   .booking-page-container {
     height: auto;
   }
@@ -131,8 +132,15 @@ li {
   }
 
   .form-input {
-    text-align: left;
     -webkit-appearance: none;
+  }
+
+  input::-webkit-date-and-time-value {
+    text-align: left;
+  }
+
+  li {
+    list-style: disc;
   }
 }
 
