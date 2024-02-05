@@ -9,6 +9,7 @@ import ConfirmedBooking from "./pages/Booking/ConfirmedBooking";
 function App() {
   return (
     <>
+    
       <Header />
       <Routes>
         <Route path="/little-lemon" element={<Homepage />} />
