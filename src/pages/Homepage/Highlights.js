@@ -4,13 +4,16 @@ import lemonDessert from "../../assets/lemon-dessert.jpg";
 import { faMotorcycle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Highlights.css";
+import { Link } from "react-router-dom";
 
 function Highlights() {
   return (
     <section className="highlights-container">
       <div className="highlights-section-top">
         <h1 className="highlights-header"> Chef's Specials!</h1>
-        <button className="highlights-button">Online Menu</button>
+        <Link to="/little-lemon/menu">
+          <button className="highlights-button">Online Menu</button>
+        </Link>
       </div>
       <div>
         <div className="highlights-section-bottom">
