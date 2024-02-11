@@ -9,7 +9,7 @@ function Highlights() {
   return (
     <section className="highlights-container">
       <div className="highlights-section-top">
-        <h1 className="highlights-header"> This weeks specials!</h1>
+        <h1 className="highlights-header"> Chef's Specials!</h1>
         <button className="highlights-button">Online Menu</button>
       </div>
       <div>
