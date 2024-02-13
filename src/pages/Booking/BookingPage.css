@@ -59,6 +59,7 @@
   border: none;
   align-self: center;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .prev-bookings-container {
