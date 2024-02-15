@@ -1,8 +1,10 @@
 import bread from "../../assets/restaurant-food.jpg";
 import "./Hero.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Hero() {
+  const navigate = useNavigate();
+
   return (
     <section className="hero-container">
       <div className="hero-description-container">
@@ -12,9 +14,13 @@ function Hero() {
           We are a family owned Mediterranean restaurant, focused on traditional
           recipes served with a modern twist.
         </p>
-        <Link to="/little-lemon/reservations">
-          <button className="hero-button">Reserve a table</button>
-        </Link>
+
+        <button
+          className="hero-button"
+          onClick={() => navigate("/little-lemon/reservations")}
+        >
+          Reserve a table
+        </button>
       </div>
       <div className="hero-img-container">
         <img src={bread} alt="bread" className="hero-img" />
