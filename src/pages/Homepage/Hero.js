@@ -19,7 +19,7 @@ function Hero() {
           className="hero-button"
           onClick={() => navigate("/little-lemon/reservations")}
         >
-          Reserve a table
+          Reserve A Table
         </button>
       </div>
       <div className="hero-img-container">
