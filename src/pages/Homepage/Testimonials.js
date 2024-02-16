@@ -9,7 +9,7 @@ import "./Testimonials.css";
 function Testimonials() {
   return (
     <section className="testimonials-container">
-      <h1 className="testimonials-title">What our customers say!</h1>
+      <h1 className="testimonials-title">What Our Customers Say!</h1>
       <div>
         <div className="testimonials">
           <div className="testimonial-card">
