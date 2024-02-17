@@ -35,7 +35,7 @@ function Highlights() {
               rosemary croutons.
             </p>
             <div className="specials-delivery-container">
-              <p className="specials-delivery-request">Order a delivery</p>
+              <p className="specials-delivery-request">Order for delivery</p>
               <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
@@ -56,7 +56,7 @@ function Highlights() {
               with garlic and seasoned with salt and olive oil.
             </p>
             <div className="specials-delivery-container">
-              <p className="specials-delivery-request">Order a delivery</p>
+              <p className="specials-delivery-request">Order for delivery</p>
               <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
@@ -78,7 +78,7 @@ function Highlights() {
               imagined.
             </p>
             <div className="specials-delivery-container">
-              <p className="specials-delivery-request">Order a delivery</p>
+              <p className="specials-delivery-request">Order for delivery</p>
               <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
