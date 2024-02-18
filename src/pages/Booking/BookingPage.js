@@ -74,7 +74,7 @@ function BookingPage() {
         <div className="form-previousBookings-container">
           <form onSubmit={handleSubmit} className="booking-page-form">
             <label htmlFor="date" className="form-label">
-              Choose date: <span className="required-symbol">*</span>
+              Choose Date: <span className="required-symbol">*</span>
             </label>
             <input
               className="form-input"
@@ -88,7 +88,7 @@ function BookingPage() {
               required
             />
             <label htmlFor="time" className="form-label">
-              Choose time: <span className="required-symbol">*</span>
+              Choose Time: <span className="required-symbol">*</span>
             </label>
             <select
               className="form-input"
@@ -105,7 +105,7 @@ function BookingPage() {
               ))}
             </select>
             <label htmlFor="guests" className="form-label">
-              Number of guests: <span className="required-symbol">*</span>
+              Number Of Guests: <span className="required-symbol">*</span>
             </label>
             <input
               className="form-input"
