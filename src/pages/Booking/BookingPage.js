@@ -133,7 +133,7 @@ function BookingPage() {
               <option value="Anniversary">Anniversary</option>
             </select>
             <button type="submit" id="submit-btn" disabled={!formData.time}>
-              Reserve a Table
+              Reserve Table
             </button>
           </form>
           <div className="prev-bookings-container">
