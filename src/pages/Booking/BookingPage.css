@@ -42,6 +42,10 @@
   margin-bottom: 20px;
 }
 
+select {
+  cursor: pointer;
+}
+
 .required-symbol {
   color: red;
 }
