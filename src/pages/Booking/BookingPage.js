@@ -70,7 +70,7 @@ function BookingPage() {
   return (
     <div>
       <section className="booking-page-container">
-        <h1 className="booking-page-title">Reserve a Table</h1>
+        <h1 className="booking-page-title">Reserve Table</h1>
         <div className="form-previousBookings-container">
           <form onSubmit={handleSubmit} className="booking-page-form">
             <label htmlFor="date" className="form-label">
