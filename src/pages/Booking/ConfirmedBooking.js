@@ -19,7 +19,7 @@ function ConfirmedBooking() {
           <span>Time:</span> {formData.time}
         </p>
         <p>
-          <span>Number of Guests</span>: {formData.guests}
+          <span>Number Of Guests</span>: {formData.guests}
         </p>
         <p>
           <span>Occasion:</span> {formData.occasion}
