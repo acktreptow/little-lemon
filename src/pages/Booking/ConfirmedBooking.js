@@ -30,7 +30,7 @@ function ConfirmedBooking() {
         <div className="button-container">
           <button onClick={() => navigate("/little-lemon")}>Homepage</button>
           <button onClick={() => navigate("/little-lemon/reservations")}>
-            Back to reservations
+            Back To Reservations
           </button>
         </div>
       </section>
