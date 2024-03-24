@@ -69,8 +69,8 @@ function Highlights() {
               />
             </div>
             <div className="specials-title-price-container">
-              <h3 className="specials-title">Lemon Dessert</h3>
-              <p className="specials-price">$5.00</p>
+              <h3 className="specials-title">Lemon Cake</h3>
+              <p className="specials-price">$3.00</p>
             </div>
             <p className="specials-description">
               This comes straight from grandma's recipe book, every last
