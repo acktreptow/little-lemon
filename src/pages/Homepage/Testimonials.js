@@ -23,7 +23,7 @@ function Testimonials() {
             <div className="img-name-username-container">
               <img src={user1} alt="first review" className="testimonial-img" />
               <div className="name-username-container">
-                <h2 className="testimonial-name">Jane Doe</h2>
+                <h2 className="testimonial-name">Jane Smith</h2>
                 <h2 className="testimonial-user-name">Jane92</h2>
               </div>
             </div>
@@ -43,7 +43,7 @@ function Testimonials() {
             <div className="img-name-username-container">
               <img src={user2} alt="first review" className="testimonial-img" />
               <div className="name-username-container">
-                <h2 className="testimonial-name">Jon Doe</h2>
+                <h2 className="testimonial-name">John Utah</h2>
                 <h2 className="testimonial-user-name">Jonny_Utah</h2>
               </div>
             </div>
